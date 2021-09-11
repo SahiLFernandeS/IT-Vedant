@@ -1,0 +1,176 @@
+*{
+
+	box-sizing:border-box;
+}
+
+.logo img{
+	
+	width:210px;
+	height:110px;
+}
+
+.call{
+	position:fixed;
+	width:80px;
+	height:80px;
+	border-radius:35px;
+	bottom:40px;
+	right:50px;
+}
+
+.whatsapp{
+	position:fixed;
+	width:80px;
+	height:80px;
+	border-radius:10px;
+	bottom:130px;
+	right:50px;
+}
+
+.logo{
+	
+	/* border-style:solid; */
+}
+
+.cname{
+	
+	/* border-style:solid; */
+	height:110px;
+	text-align:center;
+	padding-top:4px;
+	background-color:#EE6500;
+	font-size:20px;
+	color:white;
+}
+
+.menu{
+	margin-top:10px;
+	/* border-style:solid; */
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	height:40px;
+	padding-top:9px;
+	background-color:#EEAD00;
+	
+}
+
+.menu a{
+	
+	display:block;
+	text-decoration:none;
+	color:white;
+}
+
+.main>img{
+	
+	width:940px;
+	height:520px;
+	margin-top:10px;
+}
+
+.section{
+	
+	/* border-style:solid; */
+	text-align:center;
+	font-size:25px;
+	font-weight:bold;
+	height:50px;
+	padding-top:12px;
+	background-color:#EE6500;
+	color:white;
+	margin-top:10px;
+}
+
+.about img{
+	
+	width:460px;
+	height:380px;
+}
+
+.about{
+	margin-top:10px;
+	text-align:justify;
+}
+
+.service h4{
+	
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	color:#FBCB04;
+}
+
+.service{
+		
+	text-align:justify;
+	padding:10px;
+	box-shadow: 0px 0px 9px 2px #9e9e9e;
+	margin-top:10px;
+}
+
+.contact{
+	
+	text-align:center;
+	margin-top:10px;
+}
+
+.contact a{
+	
+	text-decoration:none;
+	color:#EE6500;
+}
+
+.footermain{
+	
+	margin-top:10px;
+	background-color:#EE6500;
+}
+
+.footer{
+	
+	margin:0px;
+	padding:10px;
+}
+
+.footer a{
+	
+	text-decoration:none;
+	font-size:20px;
+	color:white;
+}
+
+.serimg img{
+	
+	width:460px;
+	height:320px;
+}
+
+.form{
+	padding-left: 50px;
+	margin-top: 10px;
+	text-align: left;
+	color: #EE6500;
+}
+
+#requirement{
+	margin: 0px;
+    width: 425px;
+    height: 38px;
+}
+
+#submit{
+
+	padding: 10px 15px;
+	border-radius: 20px;
+	background-color: #FBCB04;
+	color: #EE6500;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#submit:hover{
+
+	background-color: #EE6500;
+	color: #FBCB04;
+}
