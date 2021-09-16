@@ -174,3 +174,41 @@
 	background-color: #EE6500;
 	color: #FBCB04;
 }
+
+@media (min-width:360px) and  (max-width:480px) {
+	.container_sm_12 {
+		margin-left: auto;
+		margin-right: auto;
+		width: 340px;
+	  }
+
+	.grid_sm_12 h1{
+
+		padding: 15px;
+		font-size: 30px;
+	}
+
+	.grid_sm_12{
+		display: inline;
+		float: left;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	  .container_sm_12 .grid_sm_12 {
+		width: 340px;
+	  }
+
+	  .grid_sm_12 img{
+		width:340px;
+	}
+
+	.grid_sm_12 iframe{
+		width:340px;
+	}
+
+	.container_sm_12 .call{
+		visibility: hidden;
+	}
+
+}
+
